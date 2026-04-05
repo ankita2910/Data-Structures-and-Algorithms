@@ -1,0 +1,26 @@
+
+class intersectPint():
+
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+    def getIntersectionNode(self, headA, headB):
+        if headA is None or headB is None:
+            return None
+
+        pointerA = headA
+        pointerB = headB
+
+        while pointerA != pointerB:
+            pointerA = pointerA.next if pointerA else headB
+            pointerB = pointerB.next if pointerB else headA
+
+        return pointerA
+# Example usage:
+# Creating two linked lists that intersect: A: 1 -> 2 -> 3 ->       4 -> None
+#                                      B:       5 -> 6 -> 4 -> None                                             
+headA = intersectPint(1)
+headA.next = intersectPint(2)
+headA.next.next = intersectPint(3)
+intersection_node = intersectPint(4)
+headA.next.next.next = intersection_node
