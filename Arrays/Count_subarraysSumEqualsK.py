@@ -12,7 +12,7 @@ def count_subarrays_with_sum_k(arr, k):
             count += sum_freq[current_sum - k]
 
         sum_freq[current_sum] = sum_freq.get(current_sum, 0) + 1
-
+        # The .get() method avoids key errors by using get() to return 0 if current_sum is not already in sum_freq.
     return count
 # Example usage:
 arr = [1, 1, 1,2,3,1,2,3,1]
