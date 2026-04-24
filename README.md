@@ -59,7 +59,7 @@ subarray sums
 O(1) lookups
 5. Tree & Binary Tree Techniques
 
-FAANG LOVES trees.
+
 
 Traversal Techniques
 DFS (recursive & iterative)
@@ -85,7 +85,7 @@ Peak Element
 Rotated Sorted Array
 Infinite Search Space
 
-Huge FAANG favorite.
+
 
 7. Graph Techniques (HIGH VALUE)
 Traversals
@@ -115,7 +115,7 @@ Sudoku
 Pruning
 9. Dynamic Programming (BIG DIFFERENTIATOR)
 
-FAANG evaluates senior thinking here.
+
 
 Core Patterns
 1D DP
@@ -139,7 +139,7 @@ Activity Selection
 Minimum Platforms
 11. Heap / Priority Queue Techniques
 
-Very common at FAANG.
+
 
 Patterns:
 
